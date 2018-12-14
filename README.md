@@ -16,7 +16,7 @@ A basic template to get you up and running *fast*. Scaffolds the html, css, and 
 ### Setup project
 In Terminal, navigate to your project directory ([command line tutorial](https://github.com/BostonGlobe/news-apps-docs/tree/master/bash-basics)). Then run:
 
-    curl -Lk https://goo.gl/xlXWDl > Makefile; make basic;
+    curl -Lk https://goo.gl/WoYxx1 > Makefile; make basic;
 
 That's it. You are now ready to do work. ([see advanced version setup](#setup-advanced))
 

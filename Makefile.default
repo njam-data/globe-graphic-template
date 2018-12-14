@@ -1,9 +1,9 @@
 setup: 
-	curl -Lk https://github.com/BostonGlobe/globe-graphic-template/archive/master.zip > temp.zip
+	curl -Lk https://github.com/njam-data/njam-graphic-template/archive/master.zip > temp.zip
 	unzip -q temp.zip
-	mv globe-graphic-template-master/* .
-	mv globe-graphic-template-master/.babelrc .
-	rm -rf temp.zip globe-graphic-template-master 
+	mv njam-graphic-template-master/* .
+	mv njam-graphic-template-master/.babelrc .
+	rm -rf temp.zip njam-graphic-template-master
 	rm Makefile LICENSE README.md Makefile.default base.css
 	mv Makefile.basic Makefile
 
