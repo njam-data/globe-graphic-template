@@ -1,4 +1,4 @@
-# Globe graphic template
+# NJAM graphic template
 A basic template to get you up and running *fast*. Scaffolds the html, css, and js necessary for a responsive iframe graphic, hassle-free.
 
 - [Quick start](#instructions)

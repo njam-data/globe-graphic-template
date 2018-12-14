@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang='en' style='height: auto;'>
     <head>
-        <title>The Boston Globe - graphic</title>
+        <title>NJAM - graphic</title>
         <meta name='viewport' content='width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no'>
         <meta charset='utf-8'>
         <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
@@ -15,35 +15,29 @@
         </script>
 
         <style>
-            *{-moz-box-sizing:border-box;box-sizing:border-box}a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body,html{height:100%}a img{border:none}blockquote{quotes:none}blockquote:after,blockquote:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}caption,td,th{text-align:left;font-weight:400;vertical-align:middle}body{font-family:Georgia,Times New Roman,Times,serif;line-height:1.6}a{transition:color .1s;color:#59889d;text-decoration:none}a:active,a:focus,a:hover{color:#334f5b;text-decoration:none}.source-and-credit{clear:both;width:100%;overflow:hidden;margin-top:1em}.source-and-credit p{line-height:1.6;padding:0;margin:0;font-size:11px;text-align:left;float:none}.source-and-credit .source span{font-weight:700}.source-and-credit .credit span{color:#999;text-transform:uppercase;letter-spacing:.05em}@media (min-width:600px){.source-and-credit .source{float:left}.source-and-credit .credit{text-align:right;float:right}}
+            *{-moz-box-sizing:border-box;box-sizing:border-box}a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body,html{height:100%}a img{border:none}blockquote{quotes:none}blockquote:after,blockquote:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}caption,td,th{text-align:left;font-weight:400;vertical-align:middle}body{font-family:Benton, Helvetica, sans-serif;line-height:1.6}a{transition:color .1s;color:#59889d;text-decoration:none}a:active,a:focus,a:hover{color:#334f5b;text-decoration:none}.source-and-credit{clear:both;width:100%;overflow:hidden;margin-top:1em}.source-and-credit p{line-height:1.6;padding:0;margin:0;font-size:11px;text-align:left;float:none}.source-and-credit .source span{font-weight:700}.source-and-credit .credit span{color: #000;text-transform:uppercase;letter-spacing:.05em}@media (min-width:600px){.source-and-credit .source{float:left}  .source-and-credit .credit{text-align:right;float:right}}
+            h3.title{font-weight: 800; font-family: 'Georgia', Times New Roman, Times, serif; font-size: 1.5rem} .dek{margin-bottom: 1rem}
         </style>
 
         <!-- UPDATE VERSION # IF YOU NEED TO REPUBLISH -->
         <link rel='stylesheet' href='main.css?version=1' />
 
-        <link rel='shortcut icon' href='https://www.bostonglobe.com/rw/SysConfig/WebPortal/BostonGlobe/Framework/images/favicon.ico' />
+        <link rel='shortcut icon' href='https://projects.nj.com/assets/favicon.png' />
     </head>
     <body style='height: auto;'>
 
 
 
         <!-- *** DO NOT DELETE *** -->
-        <div id='globe-graphic-container' style='height: 100%; overflow: hidden;'>
-
+        <div id='njam-graphic-container' style='height: 100%; overflow: hidden;'>
+            <h3 class="title">Awesome title for the graphic</h3>
+            <p class="dek"> Give me some good dek</p>
             <!--
             ==========================
             BEGIN: GRAPHIC CODE HERE
             ==========================
             -->
-
-
-
-
-
-
-
-
-
+        <div class="graphicDiv"></div>
 
 
             <!-- begin ai2html here DO NOT MODIFY THIS LINE -->
@@ -52,7 +46,7 @@
 
             <div class='source-and-credit'>
                 <p class='source'><span>SOURCE: Source</span></p>
-                <p class='credit'><span>Reporter / Globe Staff</span></p>
+                <p class='credit'><span>By XXX XXX | NJ Advance Media for NJ.com</span></p>
             </div>
             <!--
             ==========================
@@ -74,10 +68,10 @@
 
 
         <!-- (begin) globe iframe embed -->
-        <script src='https://apps.bostonglobe.com/common/js/pym/pym-1.3.2.min.js'></script>
+        <script src='https://pym.nprapps.org/pym.v1.min.js'></script>
         <script>
             // version
-            if (window.console && console.log) console.log('-- globe iframe graphic v2.0.3 --');
+            if (window.console && console.log) console.log('-- njam iframe graphic v2.0.3 --');
             (function() {
                 var d = new Date();
                 var timestamp = d.getTime();
